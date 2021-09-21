@@ -1,7 +1,7 @@
 # Image-Video-Caption-Generator
 
 # UI 
- ## Designed using streamlit
+  Designed using streamlit
 
 # Services
- ## Service Apt are expose on FastApi
+  Service Ap are expose on FastApi
