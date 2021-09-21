@@ -2,7 +2,7 @@
 
 > streamlit run webapp.py
 
-## dockrise 
+## dockerise 
 
 > create dockerfile
 
