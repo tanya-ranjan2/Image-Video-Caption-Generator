@@ -71,3 +71,5 @@ def image_caption(path: str) -> str:
     # print(description)
 
     return description
+
+

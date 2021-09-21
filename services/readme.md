@@ -12,3 +12,11 @@
 
 ### generate URL to localhost 
 > ./ngrok http 'port'
+
+
+### Dockerise container
+> make dockerfile
+ -  cmd 
+ > cd services/
+ > docker build -t backend .
+ > docker run -p 5000:5000 backend   # run the docker services

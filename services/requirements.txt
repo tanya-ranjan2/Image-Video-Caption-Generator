@@ -1,0 +1,9 @@
+fastapi
+numpy
+pillow
+python-multipart
+uvicorn
+matplotlib
+keras
+pickle5
+tensorflow
