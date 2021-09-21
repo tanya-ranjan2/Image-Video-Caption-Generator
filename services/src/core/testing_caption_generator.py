@@ -64,8 +64,8 @@ photo = extract_features(img_path, xception_model)
 img = Image.open(img_path)
 
 description = generate_desc(model, tokenizer, photo, max_length)
-print("\n\n")
-print(description)
+# print("\n\n")
+# print(description)
 
 # # Appending to file
 # with open("myfile.txt", 'a') as file1:

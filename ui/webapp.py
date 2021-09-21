@@ -3,13 +3,14 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 import requests
 from PIL import Image
 import io
+import os
 
 # st.title('Image Captioning')
 st.markdown("<h1 style='text-align: center; color: black;'>Image Captioning</h1>", unsafe_allow_html=True)
 
 
 # fastapi endpoint
-url = 'http://localhost:5000'
+url = os.environ.get("BACKEND_URL",'http://localhost:5000')
 endpoint = '/upload'
 
 # st.write('''Caption for the uploaded image can be generated here.''') # description and instructions

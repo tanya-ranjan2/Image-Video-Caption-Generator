@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  frontend:
+    # image: ui
+    build: 
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: frontend
+    env_file: 
+      - .env
+    ports:
+      - 8501:8501
+    network_mode: "host"
+    depends_on:
+      - backend
+    volumes:
+      - ./ui:/app
+  backend:
+    # image: backend
+    build: 
+      context: ./services
+      dockerfile: Dockerfile
+    container_name: backend
+    env_file: 
+      - .env
+    
+    ports:
+      - 5000:5000
+    volumes:
+      - ./services:/app
+    network_mode: "host"

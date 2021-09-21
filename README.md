@@ -1,6 +1,6 @@
 # Image-Video-Caption-Generator
 
-# UI 
+# UI  
   Designed using streamlit
 
 # Services
