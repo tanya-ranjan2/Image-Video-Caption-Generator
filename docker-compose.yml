@@ -9,13 +9,13 @@ services:
     container_name: frontend
     env_file: 
       - .env
-    ports:
-      - 8501:8501
-    network_mode: "host"
+    # ports:
+    #   - "80:8501"
+    # network_mode: "host"
     depends_on:
       - backend
-    volumes:
-      - ./ui:/app
+    # volumes:
+    #   - ./ui:/app
   backend:
     # image: backend
     build: 
@@ -26,7 +26,32 @@ services:
       - .env
     
     ports:
-      - 5000:5000
-    volumes:
-      - ./services:/app
-    network_mode: "host"
+      - "5000:5000"
+    # volumes:
+    #   - ./services:/app
+    # network_mode: "host"
+
+
+# version: '3'
+
+# services:
+#   backend:
+#     image: registry.gitlab.com/tanya_ranjan/image_captioning/backend
+#     container_name: backend
+#     env_file: 
+#       - .env
+#     ports:
+#       - 5000:5000
+
+#     # network_mode: "host"
+
+#   frontend:
+#     image: registry.gitlab.com/tanya_ranjan/image_captioning/ui
+#     container_name: frontend
+#     env_file: 
+#       - .env
+#     depends_on:
+#       - backend
+#     ports:
+#       - 8501:80
+#     # network_mode: "host"
