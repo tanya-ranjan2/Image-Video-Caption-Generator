@@ -2,7 +2,7 @@
 
 This repository contains implementation of an image captioning system. This system takes as input an image and generates a caption describing about the image.
 
-The objective is to build a model of Image caption generator using CNN and LSTM, converts the trained model as API and integrate it with interactive user interface application.
+The objective is to build a model of Image caption generator using *CNN* and *LSTM*, converts the trained model as API and integrate it with interactive user interface application.
 
 
 <p align="center">
@@ -15,9 +15,9 @@ The objective is to build a model of Image caption generator using CNN and LSTM,
 
 ## Summary of task performed
 
-The caption generator model is trained using the Xception model of CNN [computer vision]  to understand the content of the image and the LSTM model to turn the understanding of the image into words in the right order. The caption on new images is generated using the trained model.
+The caption generator model is trained using the **Xception** model of CNN [computer vision]  to understand the content of the image and the **LSTM** model to turn the understanding of the image into words in the right order. The caption on new images is generated using the trained model.
 
-The prediction model API is exposed with swagger document which is ready to use using FastAPI. The user-friendly caption generator feel is designed using Streamlit.  Both the model service and Application UI are containerized using docker. Docker image is stored in the GitLab repo. The docker-compose file provides the orchestration to run the complete application with just one command.
+The prediction model API is exposed with **swagger document** which is ready to use using **FastAPI**. The user-friendly caption generator feel is designed using **Streamlit**.  Both the model service and Application UI are containerized using docker. **Docker Image** is stored in the GitLab repo. The **docker-compose** file provides the orchestration to run the complete application with just one command.
 
 ## The final application will be seen as : 
 
