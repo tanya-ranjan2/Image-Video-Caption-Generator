@@ -132,15 +132,16 @@ The framework is designed to optimize your developer experience so that you can 
 
 ### Docker Conatiner for ui and services
 
-- push docker frontend backened images in gitlab
+- push dockerised frontend and backened images in gitlab
 - use that image as docker container
 
-- curl https://gitlab.com/tanya_ranjan/image_captioning/-/raw/main/docker-compose.yml > docker-compose.yml
+Simple steps to use the application : 
 
-- docker-compose up -d
+```console
+$ sudo apt install docker.io
+$ sudo apt install docker-compose
 
+$ curl https://gitlab.com/tanya_ranjan/image_captioning/-/raw/main/docker-compose.yml > docker-compose.yml
 
-- sudo apt install docker.io
-- sudo apt install docker-compose
-- git clone <https......>
-- sudo docker-compose up -d
+$ docker-compose up -d
+```
