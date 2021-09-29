@@ -1,6 +1,6 @@
 # Image_Captioning
 
-This repository contains implementation of a image captioning system. This system takes as input an image and generates a caption describing about the image.
+This repository contains implementation of an image captioning system. This system takes as input an image and generates a caption describing about the image.
 
 The objective is to build a model of Image caption generator using CNN and LSTM, converts the trained model as API and integrate it with interactive user interface application.
 
