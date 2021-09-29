@@ -128,14 +128,15 @@ $ pip install -r requirements.txt
 
 Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. In just a few minutes you can build and deploy powerful data apps 
 
-[Link to refer](https://docs.streamlit.io/en/stable/)
+[Streamlit Docmentation](https://docs.streamlit.io/en/stable/)
 
 # Services
   Service Api are expose on FastApi
 
 FastAPI is a modern, high-performance web framework for building APIs with Python based on standard type hints. 
 The framework is designed to optimize your developer experience so that you can write simple code to build production-ready APIs with best practices by default.
-[link to refer](https://fastapi.tiangolo.com/)
+
+[FastAPI Documentation](https://fastapi.tiangolo.com/)
 
 ### Docker Conatiner for ui and services
 
