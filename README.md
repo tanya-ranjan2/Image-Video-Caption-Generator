@@ -151,5 +151,5 @@ $ sudo apt install docker-compose
 
 $ curl https://gitlab.com/tanya_ranjan/image_captioning/-/raw/main/docker-compose.yml > docker-compose.yml
 
-$ docker-compose up -d
+$ docker-compose up 
 ```
