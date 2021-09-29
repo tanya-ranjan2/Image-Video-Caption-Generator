@@ -93,7 +93,7 @@ Open your browser at <a href="http://172.20.0.3:8501" class="external-link" targ
   <img src="./demo/ui2.png" width="85%" title="ui demo" alt="ui demo" width="90">
 </p>
 
-## Procedure to build the model application from scratch - 
+## Procedure to build a Image Caption Generator model from scratch - 
 ### Train the model : 
 
 1. Clone the repository : 
