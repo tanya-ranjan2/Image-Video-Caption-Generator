@@ -44,8 +44,15 @@ The prediction model API is exposed with swagger document which is ready to use 
 	Download Link Credits:<a href="https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/"> Jason Brownlee</a>
 </ul>
 
-**Docker**
-**Install Compose**
+**Docker & Docker Compose**
+
+*Installation*
+
+```console
+$ sudo apt install docker.io
+
+$ sudo apt install docker-compose
+```
 
 ## Procedure to use the above application on the local system : 
 
