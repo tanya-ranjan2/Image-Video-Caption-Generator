@@ -1,6 +1,8 @@
 # Image_Captioning
 
-### Here, We are building a model and integrate it with interactive user interface application that can generate a caption for an image we provide.
+This repository contains implementation of a image captioning system. This system takes as input a image and generates a caption describing about the image.
+
+The objective is to build a model of Image caption generator using CNN and LSTM, converts the trained model as API and integrate it with interactive user interface application.
 
 
 <p align="center">
@@ -77,7 +79,12 @@ frontend    |   External URL: http://157.35.45.151:8501
 </div>
 
 **Check it**
+
 Open your browser at <a href="http://172.20.0.3:8501" class="external-link" target="_blank">http://172.20.0.3:8501</a>.
+
+<p align="center">
+  <img src="./demo/ui2.png" width="85%" title="ui demo" alt="ui demo" width="90">
+</p>
 
 ## Procedure to build the model application from scratch - 
 ### Train the model : 
@@ -106,6 +113,7 @@ $ pip install -r requirements.txt
 </div>
 
 4. Run `services/notebooks/training_caption_generator.ipynb`
+
 
 
 # UI  
