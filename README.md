@@ -25,7 +25,7 @@ The prediction model API is exposed with **swagger document** which is ready to 
   <img src="./demo/ui.png" width="85%" title="ui demo" alt="ui demo" width="90">
 </p>
 
-*Demo (linkedin post)*
+*[Demo(https://www.linkedin.com/posts/tanya-ranjan_xception-cnn-computervision-activity-6849999773626363904-p_CG)*
 ## Requirments
 
 *System Requirements*
