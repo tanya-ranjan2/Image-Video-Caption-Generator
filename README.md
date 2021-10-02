@@ -25,7 +25,7 @@ The prediction model API is exposed with **swagger document** which is ready to 
   <img src="./demo/ui.png" width="85%" title="ui demo" alt="ui demo" width="90">
 </p>
 
-*[Demo](https://www.linkedin.com/posts/tanya-ranjan_xception-cnn-computervision-activity-6849999773626363904-p_CG)*
+*[ Click here for Demo](https://www.linkedin.com/posts/tanya-ranjan_xception-cnn-computervision-activity-6849999773626363904-p_CG)*
 ## Requirments
 
 *System Requirements*
@@ -92,6 +92,8 @@ Open your browser at <a href="http://172.20.0.3:8501" class="external-link" targ
 <p align="center">
   <img src="./demo/ui2.png" width="85%" title="ui demo" alt="ui demo" width="90">
 </p>
+
+*[ Click here for Demo](https://www.linkedin.com/posts/tanya-ranjan_xception-cnn-computervision-activity-6849999773626363904-p_CG)*
 
 ## Procedure to build a Image Caption Generator model from scratch - 
 ### Train the model : 
